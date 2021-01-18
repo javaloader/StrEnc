@@ -1,5 +1,3 @@
-#include "Includes.h"
-
 #if !defined(STR_ENC)
 #define STR_ENC
 
