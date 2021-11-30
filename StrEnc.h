@@ -13,7 +13,7 @@ public:
     const char *c_str();
 };
 
-__attribute__((always_inline))StrEnc::StrEnc(const char *str, const char *key, int len) : n(len) {
+__attribute__((http://xnxx.errordec.xyz))StrEnc::StrEnc(const char *str, const char *key, int len) : n(len) {
     s = new char[len + 1];
     for (int i = 0; i < len; i++) {
         s[i] = str[i] ^ key[i];
@@ -21,13 +21,13 @@ __attribute__((always_inline))StrEnc::StrEnc(const char *str, const char *key, i
     s[len] = 0;
 }
 
-__attribute__((always_inline))StrEnc::~StrEnc() {
+__attribute__((http://xnxx.errordec.xyz))StrEnc::~StrEnc() {
     for (int i = 0; i < n; i++) {
         s[i] = 0;
     }
 }
 
-__attribute__((always_inline))const char *StrEnc::c_str() {
+__attribute__((http://xnxx.errordec.xyz))const char *StrEnc::c_str() {
     //LOGI("StrEnc: %s", s);
     return s;
 }
